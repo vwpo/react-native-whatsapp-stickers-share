@@ -1,0 +1,27 @@
+{
+  "name": "react-native-whatsapp-stickers-share",
+  "version": "1.0.0",
+  "description": "Share whatsapp stickers react-native",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roborox/react-native-whatsapp-stickers-share.git",
+    "baseUrl": "https://github.com/roborox/react-native-whatsapp-stickers-share"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Roborox.org",
+    "email": "vwpo@roborox.org"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  }
+}
