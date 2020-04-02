@@ -5,18 +5,18 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
 
-public class IosWhatsappStickersSharingModule extends ReactContextBaseJavaModule {
+public class WhatsAppStickersShareModule extends ReactContextBaseJavaModule {
 
     private final ReactApplicationContext reactContext;
 
-    public IosWhatsappStickersSharingModule(ReactApplicationContext reactContext) {
+    public WhatsAppStickersShareModule(ReactApplicationContext reactContext) {
         super(reactContext);
         this.reactContext = reactContext;
     }
 
     @Override
     public String getName() {
-        return "IosWhatsappStickersSharing";
+        return "WhatsAppStickersShare";
     }
 
     @ReactMethod

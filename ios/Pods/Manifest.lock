@@ -1,0 +1,18 @@
+PODS:
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - React/Core (0.11.0)
+
+DEPENDENCIES:
+  - React
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - React
+
+SPEC CHECKSUMS:
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+
+PODFILE CHECKSUM: d2b78beb30875077ec4d5b35fdae97f54bd2f45c
+
+COCOAPODS: 1.6.2

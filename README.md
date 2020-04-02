@@ -10,8 +10,8 @@
 
 ## Usage
 ```javascript
-import IosWhatsappStickersSharing from 'react-native-whatsapp-stickers-share';
+import WhatsAppStickersShare from 'react-native-whatsapp-stickers-share';
 
 // TODO: What to do with the module?
-IosWhatsappStickersSharing;
+WhatsAppStickersShare;
 ```

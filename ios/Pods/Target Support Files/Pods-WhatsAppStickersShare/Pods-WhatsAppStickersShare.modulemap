@@ -1,0 +1,6 @@
+framework module Pods_WhatsAppStickersShare {
+  umbrella header "Pods-WhatsAppStickersShare-umbrella.h"
+
+  export *
+  module * { export * }
+}

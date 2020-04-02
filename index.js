@@ -1,5 +1,5 @@
 import { NativeModules } from 'react-native';
 
-const { IosWhatsappStickersSharing } = NativeModules;
+const { WhatsAppStickersShare } = NativeModules;
 
-export default IosWhatsappStickersSharing;
+export default WhatsAppStickersShare;
