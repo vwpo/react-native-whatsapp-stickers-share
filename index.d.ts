@@ -21,4 +21,6 @@ interface ReactNativeWhatsAppStickersShare {
 	share: (config: StickerPackConfig) => Promise<true>
 }
 
-export default ReactNativeWhatsAppStickersShare
+declare const nativeModule: ReactNativeWhatsAppStickersShare
+
+export default nativeModule
