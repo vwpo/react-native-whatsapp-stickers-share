@@ -13,12 +13,11 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.authors      = { "Roborox.org" => "vwpo@roborox.org" }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/vwpo/react-native-whatsapp-stickers-share.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/vwpo/react-native-whatsapp-stickers-share.git" }
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency "iOS-WebP"
 end
 

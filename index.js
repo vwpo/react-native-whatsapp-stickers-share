@@ -1,5 +1,5 @@
-import { NativeModules } from 'react-native';
+const { Linking, NativeModules } = require('react-native')
 
-const { IosWhatsappStickersSharing } = NativeModules;
-
-export default IosWhatsappStickersSharing;
+exports.default = Object.assign({}, NativeModules.WhatsAppStickersShare, {
+	isWhatsAppAvailable: async () => Linking.canOpenURL("whatsapp://send")
+})
